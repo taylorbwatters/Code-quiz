@@ -16,19 +16,27 @@
   <body>
     <header>
       <nav><a href="/high-scores.html">High Scores</a></nav>
-      <div id="timer">Timer: 59</div>
+      <div id="timer">Timer: 99</div>
     </header>
 
     <h1>Coding Quiz Challenge</h1>
     <p id="instructions">
-      Try to answer the following code-related questions wihtin the time limit.
+      Try to answer the following code-related questions within the time limit.
       Keep on mind that wrong answers will penalize your score/time by 5
       seconds!
     </p>
     <section id="buttons">
       <button id="start-quiz">Start Quiz</button>
     </section>
+
+    <form style="display: none" id="save-score">
+      <label for="initials">Enter Initials:</label>
+      <input type="text" placeholder="Your Initials" id="initials" />
+      <input type="submit" value="Submit" />
+    </form>
+
     <div id="right-wrong"></div>
+
     <script src="index.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
