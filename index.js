@@ -11,32 +11,32 @@ const timerEl = document.getElementById("timer");
 
 const QUESTIONS = [
     {
-        questionText: "The condition in an if/else statement is enclosed with __________.",
-        answers: ["quotes", "curly brackets", "parenthesis", "square brackets"],
+        questionText: "Which team did the USWNT beat in order to secure its first World Cup title in 1991?",
+        answers: ["Brazil", "Italy", "Norway", "Japan"],
         correctIndex: 2,
     }, 
 
     {
-        questionText: "Commonly used data types DO not include:",
-        answers: ["strings", "booleans", "alerts", "numbers"],
+        questionText: "Who has the most goals in USWNT history?",
+        answers: ["Mia Hamm", "Alex Morgan", "Abby Wambach", "Carli Lloyd"],
         correctIndex: 2,
     }, 
 
     {
-        questionText: "Arrays in JavaScript can be used to store ___________.",
-        answers: ["numbers and strings", "other arrays", "booleans", "all of the above"],
+        questionText: "What was the last year the USWNT won the World Cup title?",
+        answers: ["2021", "2016", "2009", "2019"],
         correctIndex: 3,
     }, 
 
     {
-        questionText: "String values must be enclosed within _____________ when being assigned to variables.",
-        answers: ["commas", "curly brackets", "quotes", "parenthesis"],
+        questionText: "Where is the next FIFA Women's World Cup being held?",
+        answers: ["Italy", "Canada", "New Zealand", "Seattle"],
         correctIndex: 2,
     },
 
     {
-        questionText: "A very useful tool used during development and debugging for printing content to the debugger is:",
-        answers: ["JavaScript", "terminal/bash", "for loops", "console.log"],
+        questionText: "Who is the current head coach of the USWNT?",
+        answers: ["Jill Ellis", "Alex Morgan", "Mia Hamm", "Vlatko Andonoski"],
         correctIndex: 3,
     },
 ];
